@@ -1,12 +1,76 @@
-# React + Vite
+🌦️ Weather App - React
+A beautiful, feature-rich weather application by Maleesha Wickramasinghe
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+https://demo-screenshot.png
+Live Demo: weather-app-demo.netlify.app
 
-Currently, two official plugins are available:
+✨ Features
+Feature	Description
+🔍 Location Search	Find weather by city name
+🌡️ Unit Conversion	Switch between Celsius/Fahrenheit
+🌙 Dark Mode	Eye-friendly dark theme
+📍 Geolocation	Auto-detect your location
+📊 Detailed Forecast	5-day weather predictions
+🚀 PWA Support	Installable as mobile app
+🛠️ Technologies
+https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB
+https://img.shields.io/badge/OpenWeather-API-orange?style=for-the-badge
+https://img.shields.io/badge/CSS_Modules-000000?style=for-the-badge&logo=css3&logoColor=white
+https://img.shields.io/badge/Axios-5A29E4?style=for-the-badge&logo=axios&logoColor=white
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+🚀 Quick Start
+Prerequisites
+Node.js ≥ 14.x
 
-## Expanding the ESLint configuration
+OpenWeatherMap API key
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+Installation
+bash
+# Clone repository  
+git clone https://github.com/Maleesha20010203/WeatherAppUsingReact.git  
+
+# Navigate to project  
+cd WeatherAppUsingReact  
+
+# Install dependencies  
+npm install  
+
+# Set up environment variables  
+echo "REACT_APP_API_KEY=your_api_key" > .env  
+
+# Start development server  
+npm start  
+📸 Screenshots
+Light Mode	Dark Mode
+https://screenshot-light.png	https://screenshot-dark.png
+🌐 API Reference
+This app uses:
+
+OpenWeatherMap Current Weather Data
+
+5 Day / 3 Hour Forecast API
+
+Geocoding API
+
+API Documentation
+
+🤝 Contributing
+Fork the project
+
+Create your branch (git checkout -b feature/AmazingFeature)
+
+Commit changes (git commit -m 'Add feature')
+
+Push (git push origin feature/AmazingFeature)
+
+Open Pull Request
+
+📜 License
+MIT © Maleesha Wickramasinghe
+
+📬 Contact
+https://img.shields.io/badge/Portfolio-maleesha.dev-blue
+https://img.shields.io/badge/LinkedIn-Maleesha_Wickramasinghe-blue
+https://img.shields.io/badge/Email-contact%2540maleesha.dev-red
+
+⭐ Star this repo if you found it useful! ⭐
